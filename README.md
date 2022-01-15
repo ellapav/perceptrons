@@ -1,14 +1,20 @@
 The two perceptrons in this Repository illustrate the Perceptron Learning Model. 
 
 In perceptron1.ipynb we consider the following training data with two categories (labels):
+
 C1(1) : (0,1.5)^T , (1,1)^T , (2,2)^T , (2,0)^T
+
 C2(−1) : (0, 0)^T , (1, 0)^T , (0, 1)^T
+
 That is, there are seven data points, each data point has two features and a corresponding label.
 (# data = m = 7, # features = n = 2)
 
 In perceptron2.ipynb we consider the data of people applying for credit cards, and a banker has determined if they should be in category:
+
 Approved (1)
+
 Denied (-1)
+
 Each data point has 16 associated features (found in credit_data.csv) and a corresponding label (found in credit_label.csv).
 (# data = m = 653, # features = n = 16)
 
@@ -29,7 +35,7 @@ w_fit2a(w_old , data , label, gamma, EPOCH) # best for visualizing the evolution
 	gamma = learning rate (0<gamma<1)
 	EPOCH = maximum # of cycles through the data points
 returns a graph of the data points, the iterations of the 3 x 1 weight vectors, and the corresponding hyperplanes plotted. It also tells how many EPOCH's it took to achieve separation (if possible before the pre-set EPOCH value).
-# Note this function only works for data with 2 features.
+(Note this function only works for data with 2 features.)
 
 
 w_fit3(w_old , data , label, gamma, EPOCH) # best for getting the weight vector quickly. 
