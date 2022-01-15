@@ -42,7 +42,7 @@ We use the Perceptron Learning Algorithm to start with an initial guess and upda
 		EPOCH = maximum # of cycles through the data points
 	
 	returns a graph of the data points, the iterations of the 3 x 1 weight vectors, and the corresponding hyperplanes plotted. It also tells how many EPOCH's it took to achieve separation (if possible before the pre-set EPOCH value).
-(Note this function only works for data with 2 features.)
+(Note w_fit2a only works for data with 2 features.)
 
 	w_fit3(w_old , data , label, gamma, EPOCH)
 
