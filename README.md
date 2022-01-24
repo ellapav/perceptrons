@@ -60,3 +60,16 @@ We use the Perceptron Learning Algorithm to start with an initial guess and upda
 	
 	returns a (n+1) x 1 weight vector that may separate data with hyperplane w^T x = 0
  
+
+
+%------------------------------------ Required Packages --------------------------------------%
+
+	numpy
+	
+	matplotlib
+	
+	scipy
+	
+	math
+	
+	csv
